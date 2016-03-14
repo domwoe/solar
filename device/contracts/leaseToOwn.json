@@ -1,0 +1,24 @@
+
+/*
+**
+** Lease to own contract description
+**
+*/
+
+[{
+     "name": "myConstantMethod",
+     "type": "function",
+     "constant": true,
+     "inputs": [{ "name": "a", "type": "string" }],
+     "outputs": [{"name": "d", "type": "string" }]
+}, {
+     "name": "myStateChangingMethod",
+     "type": "function",
+     "constant": false,
+     "inputs": [{ "name": "a", "type": "string" }, { "name": "b", "type": "int" }],
+     "outputs": []
+}, {
+     "name": "Payment",
+     "type": "event",
+     "inputs": [{"name": "a", "type": "int", "indexed": true}, {"name": "b", "type": "bool", "indexed": false}]
+}]
